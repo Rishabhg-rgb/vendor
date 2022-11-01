@@ -191,18 +191,18 @@ const ProductsVendor = ({
 			/>
 			<Header/>
 			<div className="container mx-auto px-5">
-				{/* <NavigationContainerParent>
-					<Navigation
+				<NavigationContainerParent>
+					{/* <Navigation
 						activeTab="Products"
 						activeTabIcon={ products_icon }
-					/>
+					/> */}
 					<NavigationSubNavigationContainer>
-						<NavigationSubNavigationItem isActive={ true }>Overview</NavigationSubNavigationItem>
-						<NavigationSubNavigationItem>Search</NavigationSubNavigationItem>
-						<NavigationSubNavigationItem>Add New</NavigationSubNavigationItem>
+						{/* <NavigationSubNavigationItem isActive={ true }>Overview</NavigationSubNavigationItem> */}
+						{/* <NavigationSubNavigationItem>Search</NavigationSubNavigationItem> */}
+						{/* <NavigationSubNavigationItem>Add New</NavigationSubNavigationItem> */}
 						<div className="cursor-pointer" onClick={ () => onOpen() }>Bulk Update</div>
 					</NavigationSubNavigationContainer>
-				</NavigationContainerParent> */}
+				</NavigationContainerParent>
 				<div className="flex justify-between">
 					{/* <h1 className="text-2xl text-slate-900 font-semibold">Products</h1> */}
 					{/* <Listbox onChange={ ( vendor ) => changeVendor( vendor ) } className="w-96">
